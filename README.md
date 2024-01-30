@@ -1,6 +1,5 @@
 # DigitRecognizer
-A Digit Recognizer built with a pretrained ViT model, FastAPI, StreamLit and HuggingFace Model to predict digits 0-10. The pretrained ViT \
-model is a fine-tuned version of google/vit-base-patch16–224-in21k on the mnist dataset.
+A Digit Recognizer built with a pretrained ViT model, FastAPI, StreamLit and HuggingFace Model to predict digits 0-10. The pretrained ViT model is a fine-tuned version of google/vit-base-patch16–224-in21k on the mnist dataset.
 
 ## Streamlit Web App
 ![alt text](https://github.com/TLIJUN99/DigitRecognizer/blob/main/pics/DigitRecognizer.png?raw=true)
