@@ -9,13 +9,17 @@ model is a fine-tuned version of google/vit-base-patch16–224-in21k on the mnis
 
 ![alt text]([https://github.com/TLIJUN99/DigitRecognizer/blob/main/pics/FastAPI.png?raw=true)
 
-Execute the command to build the docker:
-docker-compose -f "docker-compose.yml" up -d --build
+- Execute the command to build the docker:
+  docker-compose -f "docker-compose.yml" up -d --build
 
 ![alt text](https://github.com/TLIJUN99/DigitRecognizer/blob/main/pics/docker-compose.png?raw=true)
 
-Execute the command to stop the docker:
-docker compose stop
+- Execute the command to stop the docker:
+  docker compose stop
+
+- Use the following command to debug docker:
+  docker ps -a
+  docker exec -it <container name> bash
 
 
 
