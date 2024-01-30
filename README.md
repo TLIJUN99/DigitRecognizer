@@ -24,9 +24,13 @@ A Digit Recognizer built with a pretrained ViT model, FastAPI, StreamLit and Hug
 
 - Use the following command to debug docker:
 
-  ``docker ps -a``
+  ``docker logs -f <container name>`` : to view docker logs if container failed to start up
 
-  ``docker exec -it <container name> bash``
+  ``docker ps -a``: to check if the docker containers are running
+
+  ``docker exec -it <container name> bash`` : to enter into the docker containers after docker container are up
+
+  
 
 
 
