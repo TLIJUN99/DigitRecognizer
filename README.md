@@ -7,7 +7,7 @@ A Digit Recognizer built with a pretrained ViT model, FastAPI, StreamLit and Hug
 - Streamlit is framework for building webapp. The Streamlit webapp will send a HTTP request with the image to FastAPI server. Go to ``http://127.0.0.1:8501/`` to try the Digit Recognizer web app.
 
 ## FastAPI server
-- FastAPI is a framework for building API in Python. Go to ``http://127.0.0.1:8000/docs`` to view the API served. FastAPI will run the VIT model for prediction. FastAPI server will then send back the response to the Streamlit webapp
+- FastAPI is a framework for building API in Python. Go to ``http://127.0.0.1:8000/docs`` to view the API served. FastAPI will call the VIT model for prediction. FastAPI server will then send back the response to the Streamlit webapp
 
 ![alt text](https://github.com/TLIJUN99/DigitRecognizer/blob/main/pics/FastAPI.png?raw=true)
 
